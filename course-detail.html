@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Detail - EduDark</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: var(--radius);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- ======= NAVBAR ======= -->
+  <header class="navbar">
+    <div class="logo">EduDark</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="profile.html">Profile</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <!-- ======= COURSE DETAIL ======= -->
+  <section class="section">
+    <h2 class="section-title">HTML & CSS for Beginners</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" title="YouTube video" allowfullscreen></iframe>
+    </div>
+    <p style="margin-top: 30px; max-width: 800px;">
+      Learn the foundational building blocks of web development: HTML and CSS. In this course, you'll create real websites, understand layout systems like Flexbox and Grid, and build modern, responsive UIs.
+    </p>
+    <br />
+    <a href="courses.html" class="btn primary-btn">← Back to Courses</a>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    <p>© 2025 EduDark | Crafted by Tanish</p>
+  </footer>
+</body>
+</html>
